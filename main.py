@@ -34,7 +34,7 @@ plt.title("Line graph", fontdict1, loc= "left")
 plt.xlabel("x-axis", fontdict2)
 plt.ylabel("y-axis", fontdict2)
 
-plt.grid()
+plt.grid(color= 'green', linestyle='dotted', linewidth= 0.5)
 plt.show()
 
 # Press the green button in the gutter to run the script.
